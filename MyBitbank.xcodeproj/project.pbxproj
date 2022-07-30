@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5624AA132894D97100C48B71 /* AppProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624AA122894D97100C48B71 /* AppProperty.swift */; };
+		5624AA152894DAB700C48B71 /* AppProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5624AA142894DAB700C48B71 /* AppProperty.plist */; };
 		56AA6880288B78FB005DA834 /* BitbankTickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA687F288B78FB005DA834 /* BitbankTickers.swift */; };
 		56DDF4322883F911001DA6C1 /* MyBitbankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DDF4312883F911001DA6C1 /* MyBitbankApp.swift */; };
 		56DDF4342883F911001DA6C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DDF4332883F911001DA6C1 /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5624AA122894D97100C48B71 /* AppProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProperty.swift; sourceTree = "<group>"; };
+		5624AA142894DAB700C48B71 /* AppProperty.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppProperty.plist; sourceTree = "<group>"; };
 		56AA687F288B78FB005DA834 /* BitbankTickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitbankTickers.swift; sourceTree = "<group>"; };
 		56DDF42E2883F911001DA6C1 /* MyBitbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBitbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DDF4312883F911001DA6C1 /* MyBitbankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBitbankApp.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				56DDF4472885870A001DA6C1 /* BitbankViewModel.swift */,
 				56DDF44528852BB4001DA6C1 /* BitbankUserAssets.swift */,
 				56AA687F288B78FB005DA834 /* BitbankTickers.swift */,
+				5624AA122894D97100C48B71 /* AppProperty.swift */,
+				5624AA142894DAB700C48B71 /* AppProperty.plist */,
 			);
 			path = MyBitbank;
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56DDF4392883F912001DA6C1 /* Preview Assets.xcassets in Resources */,
+				5624AA152894DAB700C48B71 /* AppProperty.plist in Resources */,
 				56DDF4362883F912001DA6C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +172,7 @@
 				56DDF44628852BB4001DA6C1 /* BitbankUserAssets.swift in Sources */,
 				56DDF4342883F911001DA6C1 /* ContentView.swift in Sources */,
 				56DDF4322883F911001DA6C1 /* MyBitbankApp.swift in Sources */,
+				5624AA132894D97100C48B71 /* AppProperty.swift in Sources */,
 				56AA6880288B78FB005DA834 /* BitbankTickers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
