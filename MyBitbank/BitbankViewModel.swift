@@ -62,8 +62,8 @@ class MyAsset: Identifiable, ObservableObject {
 class BitbankViewModel: ObservableObject {
     let publicEndpoint = "https://public.bitbank.cc"
     let privateEndpoint = "https://api.bitbank.cc"
-    let apiKey = "" // bitbankのポータルサイトで取得したAPIキー
-    let apiSecret = "" // bitbankのポータルサイトで取得したシークレット
+    let apiKey = AppProperty().getStringValue("apiKey") // bitbankのポータルサイトで取得したAPIキー
+    let apiSecret = AppProperty().getStringValue("apiSecret") // bitbankのポータルサイトで取得したシークレット
     
     @Published var myAssets: [MyAsset] = []
     @Published var updateCounter = 0
